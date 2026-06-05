@@ -10,7 +10,7 @@ const locations = [
     region: 'South - Benin City',
     address: 'Km 8, Benin-Lagos Express Road, Opp. Allah\'s Favour Filling Station',
     status: 'NOW OPEN',
-    phone: '+234 803 456 7890'
+    phone: '+234 703 109 4519'
   },
   {
     name: 'Coming Soon',
@@ -83,7 +83,7 @@ export function Locations() {
                 <div className="flex gap-3 items-center">
                   <Clock className="w-4 h-4 text-primary flex-shrink-0" />
                   <p className="text-sm text-muted-foreground">
-                    Mon - Fri: 8AM - 5PM
+                    Mon - Fri: 9AM - 5PM
                   </p>
                 </div>
               </div>

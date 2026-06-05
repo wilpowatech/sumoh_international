@@ -31,8 +31,8 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground text-sm">WhatsApp</p>
-                    <a href="tel:+2348104607953" className="text-primary font-medium hover:underline">
-                      +234 810 460 7953
+                    <a href="tel:+2347031094519" className="text-primary font-medium hover:underline">
+                      +234 703 109 4519
                     </a>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground text-sm">Call</p>
-                    <a href="tel:+2348034567890" className="text-primary font-medium hover:underline">
+                    <a href="tel:+2347031094519" className="text-primary font-medium hover:underline">
                       +234 803 456 7890
                     </a>
                   </div>
@@ -57,6 +57,7 @@ export function Contact() {
                     <p className="font-semibold text-foreground text-sm">Visit Us</p>
                     <p className="text-muted-foreground text-sm">
                       Km 8, Benin-Lagos Express Road<br />
+                      Opp. Allah's Favour Filling Station<br />
                       Isiohor, Benin City
                     </p>
                   </div>

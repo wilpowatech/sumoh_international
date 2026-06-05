@@ -46,13 +46,13 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-white/60">
               <li><a href="#" className="hover:text-white transition">Privacy Policy</a></li>
               <li><a href="#" className="hover:text-white transition">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-white transition">Reg. BN 009</a></li>
+              <li><a href="#" className="hover:text-white transition">Reg. BN 009703</a></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/10 pt-8 text-center text-sm text-white/60">
-          <p>&copy; 2024 SUMOH INTERNATIONAL. All rights reserved.</p>
+          <p>&copy; 2026 SUMOH INTERNATIONAL. All rights reserved.</p>
         </div>
       </div>
     </footer>

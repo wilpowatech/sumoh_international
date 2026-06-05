@@ -2,28 +2,29 @@
 
 import { Card } from '@/components/ui/card'
 import { ShoppingCart, Home, FileText, Headphones } from 'lucide-react'
+import Image from 'next/image'
 
 const steps = [
   {
-    icon: ShoppingCart,
+    imageSrc: '/order_online.jpeg',
     number: '01',
     title: 'Order Online',
     description: 'Order your test online, select, and pay for your preferred panel.'
   },
   {
-    icon: Home,
+    imageSrc: '/take_sample.jpeg',
     number: '02',
     title: 'Collect Your Sample',
     description: 'Choose to have our medical team come in for home sample collection or visit a SUMOH centre near you.'
   },
   {
-    icon: FileText,
+    imageSrc: '/review_results.jpeg',
     number: '03',
     title: 'Review Results',
     description: 'Accurate and confidential results are available on your secure online account.'
   },
   {
-    icon: Headphones,
+    imageSrc: '/customer_care.jpeg',
     number: '04',
     title: 'Get Medical Support',
     description: 'Our 24-hour customer support centre is available for any queries.'
@@ -45,15 +46,20 @@ export function HowItWorks() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((step, index) => {
-            const Icon = step.icon
             return (
               <Card 
                 key={index} 
                 className="p-6 border-border bg-white hover:shadow-lg transition-shadow"
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div className="p-3 bg-primary/10 rounded-lg">
-                    <Icon className="w-6 h-6 text-primary" />
+                  {/* Fixed image container with explicit size styling */}
+                  <div className="relative w-12 h-12 overflow-hidden rounded-lg">
+                    <Image 
+                      src={step.imageSrc} 
+                      alt={step.title}
+                      fill
+                      className="object-cover"
+                    />
                   </div>
                   <span className="text-2xl font-bold text-primary/20">{step.number}</span>
                 </div>
